@@ -1,15 +1,16 @@
 body{
-  width: 80% ;
+  width: 100% ;
   margin: 0 ;
 }
 header{
   width: 100%;
   height: 2rem;
    .logo_text{
-    display: flex;
+     display: flex;
     p{
       margin: 0;
       margin-top: 1.2rem;
+      font-weight: bold;
     }
    }
    img{
@@ -42,7 +43,8 @@ header{
 .main_top{
   background-image:url(img/main.jpg);
   background-size: cover;
-  width: 120rem;
+  background-position: center;
+  width: 100%;
   height: 35rem;
   text-align: center;
   }
@@ -57,7 +59,7 @@ header{
 .main_top2{
   //全体的にフォントがでかい
   text-align: center;
-  width:120rem;
+  width: 100%;
   height: 42rem;
   background-color: #EBB94D ;
   margin-bottom: 2rem;
@@ -65,7 +67,7 @@ header{
     margin: 0;
     padding-top: 2rem;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 20px;
 
   }
   .txt3{
@@ -78,11 +80,11 @@ header{
   .hover{
     color:#fff;
     background-color: #da6b64;
-    width:  70rem;
-    height: 7rem;
+    width:  60rem;
+    height: 6rem;
     border: none;
     border-radius: 100px;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -92,24 +94,27 @@ header{
   }
   .txt2s{
     padding-bottom: 1rem;
-    .txt2{
-      font-size: 1.5rem;
-    }
   }
 }
 .main_top3{
   background-image: url(img/introbottom.jpg);
   background-size: cover;
-  width:120rem;
-  height:50rem;
+  background-position: center;
+  width: 100%;
+  height:35rem;
+  padding: 2.5rem 0;
   text-align: center;
   position: relative;
+}
   .Parentheses{
     width: 860px;
     max-width: calc(100% - 40px);
     margin: 0 auto;
     position: relative;
     }
+  .tp3_tl{
+    font-size: 2rem;
+    padding: 30px 0 30px 0;
   }
   .Parentheses::before,.Parentheses::after{
     content: '';
@@ -118,10 +123,6 @@ header{
     position: absolute;
     display: flex;
     box-sizing: border-box;
-  }
-  .tp3_tl{
-    font-size: 2rem;
-    padding: 30px 0 30px 0;
   }
    .Parentheses::before{
      top:0;
@@ -135,30 +136,184 @@ header{
      border-bottom:  4px solid #ebb94d;
      border-right:  4px solid #ebb94d;
    }
-  .tp3_txt{
-    padding: 2.5rem 0;
-    font-size: 20px;
+   .tp3_txt{
+     padding-bottom: 12rem;
+     font-size: 30px;
+   }
     p{
       margin: 2rem;
     }
     .line{
      background: linear-gradient(transparent 70%, #ebb94d 70%);
+     font-weight: bold;
    }
+  .about{
+   color: #ffffff;
+   width: 5rem;
+   height: 5rem;
+   background-color: #ebb94d;
+   border-radius: 4rem;
+   position: absolute;
+   margin: 0 auto;
+   bottom: -1rem;
+   right: 0;
+   left: 0;
   }
-   .about{
-     color: #ffffff;
-     width:5rem;
-     height: 5rem;
-     background-color: #ebb94d;
-     border-radius:4rem;
-     position: absolute;
-     margin:0 auto;
-     bottom:-2.5rem;
-     right:0;
-     left:0;
-     p{
-       font-size: 1rem;
-       margin:0 auto;
-       margin-top: 1.7rem;
+   p{
+     font-size: 1rem;
+      margin:0 auto;
+      margin-top: 1.7rem;
+   }
+ .main_top4{
+   background-color: #FEF5E0;
+   width: 100%;
+   height:33rem;
+   padding: 5rem 0;
+ }
+  .tp4_tl{
+    font-size: 28px;
+    padding: 20px 0;
+    }
+   .sub_tl{
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+   }
+   .skill_box{
+     padding: 30px;
+     margin: 2rem 10rem;
+     background-color: #ffffff;
+     border: solid 2px #EBB94D;
+     border-radius: 5px;
+     margin-bottom: 5rem;
+   }
+    .skill{
+      padding: 10px;
+    }
+     .sub_tl2{
+       font-size: 20px;
+       font-weight: bold;
+       margin-top: 0;
+       margin-bottom: 2rem;
      }
+     .skill_box2{
+       display: flex;
+       justify-content: center;
+       p{
+         margin-top: 10px;
+         font-size: 15px;
+       }
+     }
+     .main_top5{
+       background-image: url(img/aboutsecondbg.jpg);
+       background-size: cover;
+       width: 100%;
+       height: 28rem;
+       padding: 40px 0;
+     }
+    .tp5_tl{
+      color: #ffffff;
+      text-align: center;
+      font-size: 28px;
+    }
+    .tp5_txt{
+      margin-bottom: 30px;
+      color:#ffffff;
+      font-size:22px;
+      font-weight: bold;
+      line-height: 3rem
+    }
+    .span_tp5{
+      color: #EBB94D;
+    }
+    .txtbox{
+      display: flex;
+      justify-content: center;
+      .step1{
+        width: 19rem;
+        height: 8rem;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+      .step2{
+        width: 19rem;
+        height: 8rem;
+        padding: 30px;
+        background-color: #ffffff;
+        margin: 0 17px;
+        border-radius: 5px;
+      }
+      .step3{
+        width: 19rem;
+        height: 8rem;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+      .step_txt{
+        color: #ffffff;
+        font-weight: bold;
+        background-color: #EBB94D;
+        border-radius: 5px;
+        margin-top: 0;
+      }
+      .step_txt2{
+        font-size: 15px;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+      }
+      .step_txt3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom:10px;
+        border-radius: 5px;
+      }
+    }
+    .blue{
+      margin: 3rem 0;
+      background-color: #016EA9;
+      width: 100%;
+      height: 9rem;
+      display: flex;
+      align-items: center;
+      .tp5_txt{
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+    .main_top6{
+      width: 100%;
+      height: 32rem;
+      background-color: #ffffff;
+      margin-top: 6rem;
+      padding: 1.5rem 0;
+    }
+    .tp6_tl{
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin: 2rem 0;
+      .s_span{
+        font-size: 1rem;
+      }
+    }
+    .tp6_txt{
+      font-size: 20px;
+      margin-bottom: 5rem;
+    }
+    .tp6_box{
+      display: flex;
+      justify-content: center;
+      .tp6_img{
+        width: 180px;
+        height: 180px;
+        padding: 0 10px;
+      }
+    }
+    .tp6_txt2{
+      font-weight: bold;
+      font-size: 17px;
+
     }
