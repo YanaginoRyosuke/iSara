@@ -60,10 +60,10 @@ header{
   //全体的にフォントがでかい
   text-align: center;
   width: 100%;
-  height: 42rem;
+  height: 37rem;
   background-color: #EBB94D ;
-  margin-bottom: 2rem;
-    .txt2{
+  margin-bottom: 1rem;
+  .txt2{
     margin: 0;
     padding-top: 2rem;
     color: #ffffff;
@@ -116,21 +116,25 @@ header{
     font-size: 2rem;
     padding: 30px 0 30px 0;
   }
-  .Parentheses::before,.Parentheses::after{
-    content: '';
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    display: flex;
-    box-sizing: border-box;
-  }
    .Parentheses::before{
+     content: '';
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     display: flex;
+     box-sizing: border-box;
      top:0;
      left: 0;
      border-top:  4px solid #ebb94d;
      border-left:  4px solid #ebb94d;
    }
    .Parentheses::after{
+     content: '';
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     display: flex;
+     box-sizing: border-box;
      bottom: 0;
      right: 0;
      border-bottom:  4px solid #ebb94d;
@@ -155,11 +159,11 @@ header{
    border-radius: 4rem;
    position: absolute;
    margin: 0 auto;
-   bottom: -1rem;
+   bottom: -2.5rem;
    right: 0;
    left: 0;
   }
-   p{
+    p{
      font-size: 1rem;
       margin:0 auto;
       margin-top: 1.7rem;
@@ -169,6 +173,7 @@ header{
    width: 100%;
    height:33rem;
    padding: 5rem 0;
+   text-align: center;
  }
   .tp4_tl{
     font-size: 28px;
@@ -177,7 +182,6 @@ header{
    .sub_tl{
      font-size: 20px;
      font-weight: bold;
-     text-align: center;
    }
    .skill_box{
      padding: 30px;
@@ -210,10 +214,10 @@ header{
        width: 100%;
        height: 28rem;
        padding: 40px 0;
+       text-align: center;
      }
     .tp5_tl{
       color: #ffffff;
-      text-align: center;
       font-size: 28px;
     }
     .tp5_txt{
@@ -286,10 +290,11 @@ header{
     }
     .main_top6{
       width: 100%;
-      height: 32rem;
+      height: 29rem;
       background-color: #ffffff;
       margin-top: 6rem;
       padding: 1.5rem 0;
+      text-align: center;
     }
     .tp6_tl{
       font-size: 1.75rem;
@@ -301,19 +306,241 @@ header{
     }
     .tp6_txt{
       font-size: 20px;
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
     }
     .tp6_box{
       display: flex;
       justify-content: center;
+      margin-bottom: 2rem;
       .tp6_img{
         width: 180px;
         height: 180px;
-        padding: 0 10px;
+        max-width: 100%;
+        padding: 0 15px;
       }
     }
     .tp6_txt2{
       font-weight: bold;
       font-size: 17px;
-
     }
+    .main_top7{
+      width: 100%;
+      height: 63rem;
+      background-color: #FEF5E0;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .tp7_tl{
+      font-size: 20px;
+      padding: 1rem 2rem;
+    }
+    .s_merit{
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .merit{
+      display: flex;
+      justify-content: center;
+      padding: 40px 0;
+      }
+      .merit_img{
+        width: 100%;
+        height: 11.5rem;
+      }
+      .merit_img1{
+        width:22rem;
+        padding: 0 15px;
+      }
+      .merit_img2{
+        width:22rem;
+        padding: 0 15px;
+      }
+      .merit_img3{
+        width:22rem;
+        padding: 0 15px;
+      }
+      .merit_tl{
+      font-size: 20px;
+      font-weight: bold;
+      color: #EBB94D;
+      margin-top: 0;
+      display: flex;
+      justify-content:flex-start;
+      }
+      .merit_txt{
+        margin: 8px 0;
+        font-size: 1rem;
+        display: flex;
+        text-align: left;
+        line-height: 25px;
+      }
+    .sp_box {
+      background-color: #ffffff;
+      border: 2px solid #EBB94D;
+      border-radius: 5px;
+      margin: 0 auto;
+      width: 70rem;
+      height: 15rem;
+      .sp_box2{
+        margin-bottom: 40px;
+        padding: 30px 15px;
+      }
+      .merit_tl{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+      }
+      .sp_sub{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0 10px 0;
+      }
+      .sp_txt{
+        font-weight: bold;
+        margin-top: 0;
+      }
+    }
+  .tp7_ed{
+      font-size: 14px;
+  }
+  .main_top8{
+    width: 100%;
+    height: 51rem;
+    background-image: url(img/teacherbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .mp8{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .fa{
+      font-size: 28px;
+      color: #ffffff;
+      margin: 6px 5px 0 0;
+    }
+    .tp8_tl{
+      margin: 0 0;
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+  .tp8_sub{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .free_img{
+    position: relative;
+    bottom: -35px;
+    border-radius: 50%;
+    bottom: -40px;
+  }
+  .introduction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .free_p{
+    padding: 0 20px;
+  }
+  .free_k{
+    width: 18rem;
+    height: 20rem;
+    border: 3px solid #ffffff;
+    padding: 40px;
+  }
+  .job{
+    margin: 0;
+    color: #ffffff;
+  }
+  .name{
+    margin: 1rem 0;
+    color: #ffffff;
+  }
+  .intro_txt{
+    text-align: left;
+    margin: 0;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .tp8_ed{
+    width: 100%;
+    height: 12rem;
+    background-color: #EBB94D;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+  }
+  .tp8_ed::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top-color: #EBB94D;
+    top: 100%;
+    left: 50%;
+    margin-left: -1.5rem;
+  }
+  .QA_tp{
+    width: 100%;
+  }
+  .QandA{
+    color: #EBB94D;
+    background-color: #ffffff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Parentheses2{
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    position: relative;
+    }
+     .Parentheses2::before{
+       content: "";
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       display: flex;
+       box-sizing: border-box;
+       top:0;
+       left: 0;
+       border-top:  4px solid #ffffff;
+       border-left:  4px solid #ffffff;
+     }
+     .Parentheses2::after{
+       content: "";
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       display: flex;
+       box-sizing: border-box;
+       bottom: 0;
+       right: 0;
+       border-bottom:  4px solid #ffffff;
+       border-right:  4px solid #ffffff;
+     }
+  .freedom{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin: 0 auto;
+  }
+  .third_party{
+    background-color: #ffffff;
+    width: 100%;
+    height: 20rem;
+    padding: 30px 0;
+  }
