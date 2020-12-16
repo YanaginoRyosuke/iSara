@@ -481,7 +481,7 @@ header{
     position: absolute;
     width: 0;
     height: 0;
-    border: 25px solid transparent;
+    border: 2rem solid transparent;
     border-top-color: #EBB94D;
     top: 100%;
     left: 50%;
@@ -541,6 +541,87 @@ header{
   .third_party{
     background-color: #ffffff;
     width: 100%;
-    height: 20rem;
-    padding: 30px 0;
+    height: 1rem;
+    padding:  0;
   }
+  .main_top9{
+    width: 100%;
+    height: 84rem;
+    padding: 3rem 0;
+  }
+.mp9{
+  text-align: center;
+  .tp9_tl{
+    font-size: 2.3rem;
+    margin: 0;
+  }
+  .tp9_tl2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem 0 2rem 0;
+  }
+  .tp9_tl3{
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem 0;
+  }
+}
+.msg_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .picture{
+    width: 20rem;
+    height: 20rem;
+    border: 3px solid;
+    border-color: #EBB94D;
+  }
+  .pic_person{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pic_p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #6e6e6e;
+  }
+  span{
+    font-style: oblique;
+    line-height: 4rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+  }
+}
+.main_top10{
+  width: 100%;
+  height: 50rem;
+  background-image: url(img/classbg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0;
+}
+.mp10{
+  text-align: center;
+  color: #ffffff;
+  .mp10_tl{
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+  .mp10_sub{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+//何で効かねぇんだよぉぉぉぉぉ
+  .mp10_box{
+    width: 50%;
+    height: 30rem;
+    background-color: #ffffff;
+    border: 10px solid #016ea9;
+  }
+  .box_tl{
+    color: #ffffff;
+  }
+}
